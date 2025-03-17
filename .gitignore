@@ -1,0 +1,19 @@
+# Ignorar banco de dados local
+airflow.db
+
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar logs do Airflow
+logs/
+
+# Ignorar arquivos temporários
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos do sistema (como no MacOS)
+.DS_Store
